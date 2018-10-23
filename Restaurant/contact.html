@@ -1,27 +1,37 @@
 <html lang="en">
 <head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <title>Contact</title>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
-<header>
-<center><h1>TrUmami</h1></center>
+
+<header class="jumbotron">
+<h1>TrUmami</h1>
 </header>
 <hr />
 <nav>
-<a href="homePage.html">Home</a>
-<a href="menu.html">Menu</a>
-<a href="contact.html">Contact Us</a>
+<a class="btn"href="homePage.html">Home</a>
+<a class="btn"href="menu.html">Menu</a>
+<a class="btn"href="contact.html">Contact Us</a>
 </nav>
 <hr />
 
 
-
-
-  <form action="homePage.html" method="POST">
+  <form action="homePage.html" method="POST" class="table">
     <table>
  <label for="name">Name:</label>
-  <input type;="text" id="name" name="name"><br />
+  <input type="text" id="name" name="name"><br />
   <label for="email">Email:</label>
   <input type="text" id="email" name="email"><br />
   <label for="phone">Phone:</label>
@@ -34,31 +44,33 @@
     <option value="private party">Private Party</option>
     <option value"feedback">Feedback</option>
     <option value="other">Other</option> </select></p>
-    <label for="info">Additional Information</label>
-    <textarea id="info" name="info"></textarea>
-    <br>
-    <br>
-    <br>
 
-      <legend>Have you been to the Restaurant?
-          <input type="checkbox" id="yes" name="yes" value="yes">
+    Have you been to the Restaurant?
+      <input type="checkbox" id="yes" name="yes" value="yes">
       <lable for"yes">Yes</label>
       <input type="checkbox" id="no" name="no" value"no">
-      <label for"no">No</lable></legend>
+      <label for"no">No</lable>
 <br>
-<legend>Best Days to Contact You:
+Best Days to Contact You:
+
   <input type="checkbox" id="monday" name="monday" value="monday">
   <label for="monday">M</label>
-  <input type="checkbox" id="tuesday" name"tuesday">
+  <input type="checkbox" id="tuesday" name"tuesday" value="tuesday">
   <label for="tuesday">T</label>
-  <input type="checkbox" id="wednesday" name="wednesday">
+  <input type="checkbox" id="wednesday" name="wednesday" value="wednesday">
   <label for="wednesday">W</label>
-  <input type="checkbox" id="thursday" name="thursday">
+  <input type="checkbox" id="thursday" name="thursday" value="thursday">
   <label for="thursday">Th</label>
-  <input type="checkbox" id="friday" name="friday">
-  <label for="friday">F</label></legend>
+  <input type="checkbox" id="friday" name="friday" value="friday">
+  <label for="friday">F</label>
+  <br>
+  <label for="info">Additional Information</label>
+  <textarea id="info" name="info"></textarea>
+  <br>
+  <br>
 
-  <input type="submit" name="submit" value="Submit">
+  <input class="submit" type="submit" name="submit" value="Submit">
+
 
 </table>
 
@@ -66,11 +78,10 @@
 
   <hr />
 
-  <footer>
+  <footer class="footer">
 
-  <center>
+
   <p>3020 Treasure Lane Rainbow, Shamrock 245567</p>
   <p>919-209-8909</p>
-  </center>
 
   </footer>
