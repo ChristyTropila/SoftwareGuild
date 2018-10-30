@@ -66,6 +66,8 @@ if($_POST["submit"]) {
 
 <nav>
 <a class="btn badge-pill" href="bootstrap.html">Home</a>
+<a class="btn badge-pill" href="bootstrapcontact.php">Contact Me</a>
+<a class="btn badge-pill" href="index.html" target=_blank >Projects</a>
   </nav>
 
   <hr />
