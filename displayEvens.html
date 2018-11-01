@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/JavaScript" src="displayEvens.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Click to Display Evens</h1>
+    <form name="numberFun" onsubmit="return validateItems();" onreset="resetForm();" class="form-inline">
+      <div class="form-group">
+        <label for="num1">Starting Number:</lable>
+          <input type="number" class="form-control" id="num1">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="num2">Ending Number:</label>
+          <input type="number" class="form-control" id="num2">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="step">Step:</label>
+          <input type="number" class="form-control" id="step">
+        </div>
+        <br>
+        <button type="submit" id="submitButton" class="btn btn-default">Display Evens</button>
+      </form>
+      <table id="results" class="table table-striped" style="display:none;">
+        <thead>
+          <tr>
+            <th id="tableHeader">This will be changed in JavaScript</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="output"><!--The results will go here--></td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
