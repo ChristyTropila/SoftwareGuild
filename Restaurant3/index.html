@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<!--This is my final revision of my Restaurant Page.
+Christy Tropila November 1, 2018 -->
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="styleSheet.css" rel="stylesheet" type="text/css" />
+<script type="text/JavaScript" src="restaurant.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    // Activate carousel
+    $("#myCarousel").carousel();
+
+    // Enable carousel control
+	$(".left").click(function(){
+    	$("#myCarousel").carousel('prev');
+    });
+    $(".right").click(function(){
+    	$("#myCarousel").carousel('next');
+    });
+
+    // Enable carousel indicators
+    $(".slide-one").click(function(){
+    	$("#myCarousel").carousel(0);
+    });
+    $(".slide-two").click(function(){
+    	$("#myCarousel").carousel(1);
+    });
+    $(".slide-three").click(function(){
+    	$("#myCarousel").carousel(2);
+    });
+    $(".slide-four").click(function(){
+    	$("#myCarousel").carousel(3);
+    });
+    $(".slide-five").click(function(){
+    	$("#myCarousel").carousel(4);
+    });
+
+});
+</script>
+
+  <title>Home Page</title>
+
+
+
+</head>
+
+<body>
+
+  <div class="jumbotron">
+<div class="container">
+    <h1>TRUMAMI</h1>
+    <h3 style="color:blue;">Brand New Location Opening Up Winter 2019!</h3>
+    <h5 style="color:blue;">402 Sugardot Lane, Shamrock 24556</h5>
+  </div>
+</div>
+
+
+
+
+
+    <div class="navBar">
+
+   <ul class="nav nav-tabs">
+           <li class="active"><a data-toggle="pill" href="#home"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+           <li><a data-toggle="pill" href="#menu">Menu</a></li>
+           <li><a data-toggle="pill" href="#drinks">Beverages</a></li>
+           <li><a data-toggle="pill" href="#contact">Contact Us</a></li>
+         </ul>
+
+         </div>
+
+<!--<div class="center"> -->
+
+<div class="tab-content">
+
+<div id="home" class="tab-pane fade in active">
+
+<br>
+
+            <center><h3 id="title">Our Mission</h3>
+        <p id="body"> Since the Tropila's move to America from Dublin Ireland in <br> the 1960's,
+          it has been their mission to share fresh quality,<br> authentic Irish cuisines passed down by multiple generations.<br>
+
+              Using only grassfed meats, dairys, and organic grains and <br>spices, our food exceeds expectations, and will have you <br> needing more of the the "sixth taste-bud"--<br><h3>Trumami!</h3></p>
+
+ <center><img src="shamrock.png" /><img src="shamrock.png" /><img src="shamrock.png" /><img src="shamrock.png" /><img src="shamrock.png" /><img src="shamrock.png" /></center>
+              <br>
+              <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+          </div></center>
+
+
+<div id="menu" class="tab-pane fade">
+  <table>
+  <tr>
+
+      <th id="headers">Burger and Fries</th>
+
+      <th id="headers">Hot dog and Chips</th>
+
+      <th id="headers">Italian Sausage and Peppers</th>
+
+      <tr>
+
+        <td> An American Classic! Your choice - with or without cheese Pickle, onion, tomato and lettuce. Served with our famouse thick cut french fries <br><i>$7.95!</i></td>
+
+        <td>A Summer Classic! Your choice - white or wheat bun, Relish, mustard, and ketchup. Served with our house-made chips<br><i> $7.95</i></td>
+
+        <td>An All-Time Favorite! Your choice-mild or spicy Cole Slaw. Served with garlic mashers<br> <i>$10.95</i></td>
+
+<tr>
+
+<th id="headers">Tenderloin Sandwich and Chips</th>
+
+<th id="headers">House Salad</th>
+
+<th id="headers">Brisket Sandwich and Fries</th> </tr>
+
+<tr>
+
+<td>Really Hits the Spot! Plain or Sesame Seed Bun Pickle, onion, tomato, and lettuce. Served withour house-made chips!<br><i>$8.95</i></td>
+
+<td>On the Lighter Side. Your choice-with or without cheese, Iceberg lettuce, tomatoes, peppers, Thousand Island or Ranch. Dressing Served with a dinner roll. <br><i>$6.95</i></td>
+
+<td>A Taste of Texas! Smoked Brisket on thick-cut texas Toast. Cole Slaw. Served with our famous thick-cut french fries!<br><i>$7.95</i></td>
+</table>
+</div>
+
+
+<div id="drinks" class="tab-pane fade">
+<table style="margin-left:50px;">
+<tr>
+<th id="headers">Beverages</th>
+<th id="headers">Cocktails</th>
+</tr>
+<tr>
+<td>Root Beer <br>
+<i>$3.00</i></td>
+<td>Cosmo<br>
+  <i>$12.00</i></td>
+</tr>
+<tr> <td>Bottled Water <br>
+<i>$1.25</i></td>
+<td>Beer Flight<br>
+<i>$12.00</i></td>
+</tr>
+<tr><td>Lemonade<br>
+<i>$1.00</i></td>
+<td>Martini<br>
+<i>$10.00</i></td></tr>
+<tr> <td>Iced Tea <br>
+<i>$1.25</i></td>
+<td>Whiskey Smash<br>
+<i>$8.00</i></</tr>
+</table>
+</div>
+
+
+
+<div id="contact" class="tab-pane fade">
+
+  <form name="contactForm" onsubmit="return validateItems()" onreset="resetForm();" class="form-inline">
+      <table id="form">
+<div class="form-group">
+ <label for="name">Name:</label><br>
+  <input type="text" class="form-control" id="name"<br /></div><br>
+  <div class="form-group">
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" class="form-control"><br /></div><br>
+  <div class="form-group">
+  <label for="phone">Phone:</label><br>
+  <input type="text" id="phone" class="form-control"><br /></div><br>
+  <br>
+  <div class="form-group">
+  <label for="contact">Reason for Inquiry:</label>
+
+  <select id="contact" class="form-control">
+    <option value="default" selected>--Catering--</option>
+    <option value="private party">Private Party</option>
+    <option value"feedback">Feedback</option>
+    <option value="other">Other</option> </select></div>
+<br>
+<div class="form-group">
+    Have you been to the Restaurant?
+      <input type="checkbox" id="yes" class="form-control" value="yes">
+      <lable for"yes">Yes</label>
+      <input type="checkbox" id="no" class="form-control" value"no">
+      <label for"no">No</lable></div><br>
+<br>
+<div class="form-group">
+Best Days to Contact You:
+
+  <input type="checkbox" id="monday" class="form-control" value="monday">
+  <label for="monday">M</label>
+  <input type="checkbox" id="tuesday" class="form-control" value="tuesday">
+  <label for="tuesday">T</label>
+  <input type="checkbox" id="wednesday" class="form-control" value="wednesday">
+  <label for="wednesday">W</label>
+  <input type="checkbox" id="thursday" class="form-control" value="thursday">
+  <label for="thursday">Th</label>
+  <input type="checkbox" id="friday" class="form-control" value="friday">
+  <label for="friday">F</label></div>
+
+  <br>
+  <div class="form-group">
+  <label for="info">Additional Information</label>
+  <textarea id="info" class="form-control"></textarea></div>
+  <br>
+  <br>
+
+  <button type="submit" id="submitButton" class"btn btn-default">Submit</button>
+
+
+</table>
+
+</form>
+
+
+</div>
+</div>
+
+<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="4000" data-ride="carousel">
+    	<!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li class="slide-one active"></li>
+            <li class="slide-two"></li>
+            <li class="slide-three"></li>
+            <li class="slide-four"></li>
+            <li class="slide-five"></li>
+
+        </ol>
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="active item">
+                <img src="irish.png" alt="First Slide">
+         		<div class="carousel-caption">
+                  <h3>Opening a Second Location!</h3>
+                  <p>To celebrate our success, we are proud to announce a new pub will be opening after New Years! Yes we are hiring! Join our family! Please leave your contact information if interested in front or back house positions! </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="fish-and-chip-3039746_640.jpg" alt="Second Slide">
+                </div>
+            <div class="item">
+                <img src="irishstew.jpg" alt="Third Slide">
+                  </div>
+              <div class="item">
+                <img src="lamb.jpg" alt="Fourth Slide">
+              </div>
+              <div class="item">
+              <div class="carousel-caption">
+              <h2><u>A FRESH NEW MENU!</u></h2>
+                <h4 style="margin-bottom:50px;">Dont miss out on some of the freshest haddock in town! Our new seasonal menu will really have your <i>TRUMAMI</i> taste buds flying!</h4>
+              </div>
+            </div>
+            <div class="item">
+                <img style="height:190px;" src="beers.jpg" alt="Fifth Slide">
+         		<div class="carousel-caption">
+                  <h3>Try Our New Beer Flights!</h3>
+                  <p>Every month we will rotate our draught beer selection! This month we are featuring a SG Brew, made-in-house with chocolate notes and rhubarb shavings. Try a beer flight today for only $12.99 for 4 8oz samples!</p>
+                </div>
+            </div>
+
+        </div>
+        <a class="carousel-control left">
+             <span class="glyphicon glyphicon-chevron-left"></span>
+         </a>
+         <a class="carousel-control right">
+             <span class="glyphicon glyphicon-chevron-right"></span>
+         </a>
+     </div>
+ </div>
+
+
+
+
+<br>
+
+
+
+
+      <footer class="footer">
+
+
+
+
+
+          <p>3020 Treasure Lane Rainbow, Shamrock 245567</p>
+
+          <p>919-209-8909</p>
+
+
+
+
+
+      </footer>
+
+    </body>
+      </html>
