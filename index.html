@@ -1,68 +1,209 @@
-<!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-  <title>
-    Christy Tropila
-  </title>
 
-  <style>
+    <meta charset="utf-8">
 
-body{
-  background:url(https://ichef.bbci.co.uk/images/ic/720x405/p06ljssv.jpg);
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-}
+    <link href="styleSheet.css" rel="stylesheet" type="text/css" />
 
-h1 {
-color: black;
-font-family: times new roman;
-font-size: 300%;
-}
-
-
-h4{
-  color: black;
-  font-family: times new roman;
-  font-size: 12 0%;
-
-
-
-}
-
-</style>
+  <title>Home Page</title>
 
 </head>
 
+  <body>
 
-<body link="red">
+    <div class="jumbotron">
+    <div class="container">
+      <h1>TRUMAMI</h1>
+      <h3 style="color:blue;">Brand New Location Opening Up Winter 2019!</h3>
+      <h5 style="color:blue;">402 Sugardot Lane, Shamrock 24556</h5>
+    </div>
+  </div>
+
+    <hr />
+
+    <div class="navBar">
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+        <li><a data-toggle="pill" href="#menu">Menu</a></li>
+        <li><a data-toggle="pill" href="#contact">Contact Us</a></li>
+        </ul>
+
+
+</div>
+
+<hr />
+
+<!--<div class="center"> -->
+
+<div class="tab-content">
+<div id="home" class="tab-pane fade in active">
+
+<center><img src="food.jpg" /></center>
+
+
+    <br>
+
+            <center><h3 id="title">Our Mission</h3>
+
+            <p id="body"> Since the Tropila's move to America from Dublin Ireland in the 1960's, it has been their mission to share fresh quality,<br> authentic Irish cuisines passed down by multiple generations.<br>
+
+              Using only grassfed meats, dairys, and organic grains and spices, our food exceeds expectations, <br>and will have you needing more of the the "sixth taste-bud"--<br><h4>Trumami!</h4></p>
+
+              <br>
+
+              <br>
+
+              <br>
 
 
 
+          </div></center>
+<div id="menu" class="tab-pane fade">
+  <table>
+  <tr>
 
-  <h1 align="center">Christy Tropila </h1>
+      <th id="headers">Burger and Fries</th>
+
+      <th id="headers">Hot dog and Chips</th>
+
+      <th id="headers">Italian Sausage and Peppers</th>
+
+      <tr>
+
+        <td> An American Classic! Your choice - with or without cheese Pickle, onion, tomato and lettuce. Served with our famouse thick cut french fries <br><i>$7.95!</i></td>
+
+        <td>A Summer Classic! Your choice - white or wheat bun, Relish, mustard, and ketchup. Served with our house-made chips<br><i> $7.95</i></td>
+
+        <td>An All-Time Favorite! Your choice-mild or spicy Cole Slaw. Served with garlic mashers<br> <i>$10.95</i></td>
+
+<tr>
+
+<th id="headers">Tenderloin Sandwich and Chips</th>
+
+<th id="headers">House Salad</th>
+
+<th id="headers">Brisket Sandwich and Fries</th> </tr>
+
+<tr>
+
+<td>Really Hits the Spot! Plain or Sesame Seed Bun Pickle, onion, tomato, and lettuce. Served withour house-made chips!<br><i>$8.95</i></td>
+
+<td>On the Lighter Side. Your choice-with or without cheese, Iceberg lettuce, tomatoes, peppers, Thousand Island or Ranch. Dressing Served with a dinner roll. <br><i>$6.95</i></td>
+
+<td>A Taste of Texas! Smoked Brisket on thick-cut texas Toast. Cole Slaw. Served with our famous thick-cut french fries!<br><i>$7.95</i></td>
+
+<tr>
+<th id="headers">Beverages</th></tr>
+<tr>
+<td>Root Beer <br>
+<i>$3.00</i></td></tr>
+<tr>  <td>Bottled Water <br>
+<i>$1.25</i></td></tr>
+<tr><td>Lemonade<br>
+<i>$1.00</i></td></tr>
+<tr> <td>Iced Tea <br>
+<i>$1.25</i></td></tr>
+
+
+</table>
+<hr />
+</div>
+<div id="contact" class="tab-pane fade">
+  <form action="index.html" method="POST" class="table">
+    <table>
+ <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br />
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email"><br />
+  <label for="phone">Phone:</label>
+  <input type="text" id="phone" name="phone"><br />
+  <br>
+  <label for="contact">Reason for Inquiry:</label>
+
+  <select id="contact" name="contact">
+    <option value="default" selected>--Catering--</option>
+    <option value="private party">Private Party</option>
+    <option value"feedback">Feedback</option>
+    <option value="other">Other</option> </select></p>
+
+    Have you been to the Restaurant?
+      <input type="checkbox" id="yes" name="yes" value="yes">
+      <lable for"yes">Yes</label>
+      <input type="checkbox" id="no" name="no" value"no">
+      <label for"no">No</lable>
+<br>
+Best Days to Contact You:
+
+  <input type="checkbox" id="monday" name="monday" value="monday">
+  <label for="monday">M</label>
+  <input type="checkbox" id="tuesday" name"tuesday" value="tuesday">
+  <label for="tuesday">T</label>
+  <input type="checkbox" id="wednesday" name="wednesday" value="wednesday">
+  <label for="wednesday">W</label>
+  <input type="checkbox" id="thursday" name="thursday" value="thursday">
+  <label for="thursday">Th</label>
+  <input type="checkbox" id="friday" name="friday" value="friday">
+  <label for="friday">F</label>
+  <br>
+  <label for="info">Additional Information</label>
+  <textarea id="info" name="info"></textarea>
+  <br>
   <br>
 
+  <input class="submit" type="submit" name="submit" value="Submit">
 
 
-<center><h4><u>My Personal Links</u></h4></center>
-<table style="color:white;font-weight:bold;" align="center">
-  <ul>
-    <td><li><a href="https://www.facebook.com/tropila">FaceBook</a></li>
-      <li><a href="https://www.instagram.com/christy__tea/">Instagram</a></li>
-        <li><a href="https://codingbytropila.wordpress.com">My Blog</a></li>
-          <li><a href="https://slack-redir.net/link?url=http%3A%2F%2Fspadrashop.com%2FLAGCC%2Fchristy%2Fwordpress%2F">Under Construction</a></li></td>
-        </ul>
 </table>
-        <br>
 
-        <br>
+</form>
 
-        <center><h4><u>My Projects:</u>  <h4></center>
-        <table style="color:white;font-weight:bold;" align="center">
-        <ul>
-          <td><li><a href="Resume/Portfolio/index.html">Resume Project</a></li>
-          <li><a href="Restaurant/homePage.html">Restaurant Site One</a></li>
-          <li><a href="bootstrap.html">Resume Project With BootStrap!</a></li>
-        </td>
-        </table>
+  <hr />
+</div>
+
+
+
+  </div>
+</div>
+
+
+
+
+      <br>
+
+      <br>
+
+      <br>
+
+      <br>
+
+      <br>
+
+>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+      <footer class="footer">
+
+
+
+
+
+          <p>3020 Treasure Lane Rainbow, Shamrock 245567</p>
+
+          <p>919-209-8909</p>
+
+
+
+
+
+      </footer>
+
+    </body>
+      </html>
